@@ -25,6 +25,8 @@
 ## Description
 
 A company needs know the city weather conditions for their clients/users. The logic workflow is presented in the following image:
+![Mi imagen](foto3.png)
+<img src="foto3.png" alt="workflow" />
 
 
 ## Installation
