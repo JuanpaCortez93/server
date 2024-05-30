@@ -24,7 +24,8 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+A company needs know the city weather conditions for their clients/users. The logic workflow is presented in the following image:
+
 
 ## Installation
 
