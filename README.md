@@ -18,6 +18,11 @@ $ npm install
 ```
 
 ## Running the app
+Before run the app you must install and run mongo on your server.
+```bash
+# run mongo in your localhost
+$ mongod
+```
 
 ```bash
 # development
