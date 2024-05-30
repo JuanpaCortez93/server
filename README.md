@@ -1,4 +1,4 @@
-<p align="center">
+![foto1](https://github.com/JuanpaCortez93/server/assets/63519906/21241d65-f55d-4532-b271-4d60e156634c)<p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
 
@@ -23,10 +23,19 @@
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Description
-
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2. and it is part of a test created by MushroomSoft (Frontend).
 A company needs know the city weather conditions for their clients/users. The logic workflow is presented in the following image:
-![Mi imagen](foto3.png)
+
 <img src="foto3.png" alt="workflow" />
+
+The modules are the following:
+<img src="foto2.png" alt="modules" />
+
+The tree map is the following:
+<img src="foto4.png" alt="tree_map" />
+
+The arquitecture selected is Client-Server to keep things super simple and it is the following:
+<img src="foto1.png" alt="arquitecture" />
 
 
 ## Installation
