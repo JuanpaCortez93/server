@@ -1,5 +1,5 @@
 ## Description of the project
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2. and it is part of a test created by MushroomSoft (Frontend).
+This project was generated with NEST and it is part of a test created by MushroomSoft (Backend).
 A company needs know the city weather conditions for their clients/users. The logic workflow is presented in the following image:
 
 <img src="foto3.png" alt="workflow" />
