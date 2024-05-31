@@ -1,5 +1,5 @@
 ## Description of the project
-This project was generated with NEST and it is part of a test created by MushroomSoft (Backend).
+This project was generated with NEST and it is part of a test created by MushroomSoft (Backend). The frontend part is in repository and it is called app.
 A company needs know the city weather conditions for their clients/users. The logic workflow is presented in the following image:
 
 <img src="foto3.png" alt="workflow" />
