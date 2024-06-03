@@ -1,14 +1,15 @@
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
-import { Favorites } from './Schemas/favorites.schema';
+import { Favorites } from 'src/favorite-cities/Schemas/favorites.schema';
 import { Model } from 'mongoose';
-import { FavoritePostDTO } from './DTOs/FavoritesPostDTO,dto';
+import { FavoritePostDTO } from 'src/favorite-cities/DTOs/FavoritesPostDTO,dto';
+import { IFavoriteServices } from './Interfaces/favorite-cities.interface';
 
 /**
  * Service for create, get or delete the favorite cities from Mongo DB.
 */
 @Injectable()
-export class FavoriteCitiesService {
+export class FavoriteCitiesService implements IFavoriteServices {
 
     //Dependency Injection Variables
     @InjectModel(Favorites.name) private readonly _taskModel : Model<Favorites>

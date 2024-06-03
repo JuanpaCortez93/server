@@ -1,5 +1,5 @@
 import { Body, ConflictException, Controller, Delete, Get, HttpStatus, NotFoundException, Param, Post, Put } from '@nestjs/common';
-import { FavoriteCitiesService } from './favorite-cities.service';
+import { FavoriteCitiesService } from './Services/favorite-cities.service';
 import { FavoritePostDTO } from './DTOs/FavoritesPostDTO,dto';
 import { ApiExtraModels, ApiOperation, ApiResponse, ApiTags, getSchemaPath } from '@nestjs/swagger';
 
