@@ -1,4 +1,4 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Favorites } from 'src/favorite-cities/Schemas/favorites.schema';
 import { Model } from 'mongoose';
@@ -36,7 +36,9 @@ export class FavoriteCitiesService implements IFavoriteServices {
      * @returns A promise that resolves to the found city or null.
      */
     public FindOne(city:string) {
-        return this._taskModel.findOne({city});
+        const response = this._taskModel.findOne({city});
+        if(!response) throw new NotFoundException("City not found");
+        return response;
     }
 
     /**
@@ -58,6 +60,8 @@ export class FavoriteCitiesService implements IFavoriteServices {
      * @returns A promise that resolves to the result of the deletion.
      */
     public DeleteOne(id:string) {
+        const response = this._taskModel.findById(id);
+        if(!response) throw new NotFoundException("City not found");
         return this._taskModel.findByIdAndDelete(id);
     }
 
